@@ -21,68 +21,65 @@
 
 <body>
 
-	<main class="main">
 
-
-
-		<!---------------------------
+	<!---------------------------
 HEADER + NAV + INTRO
 ---------------------------->
 
 
-		<div class="content">
-			<header class="header">
-				<div class="header__container  container">
-					<div class="header__row">
-						<a href="#" class="header__logo  logo"><span>#</span>нацирке</a>
+	<div class="content">
+		<header class="header">
+			<div class="header__container  container">
+				<div class="header__row">
+					<a href="#" class="header__logo  logo"><span>#</span>нацирке</a>
 
-						<nav class="nav">
-							<a href="#" class="nav__link">Студия</a>
-							<a href="#" class="nav__link">Услуги</a>
-							<a href="#" class="nav__link  active">Работы</a>
-							<a href="#" class="nav__link">Команда</a>
-							<a href="#" class="nav__link">Контакты</a>
-						</nav>
-					</div>
-					<!--header__row-->
+					<nav class="nav">
+						<a href="#" class="nav__link  active">Студия</a>
+						<a href="#" class="nav__link">Услуги</a>
+						<a href="#" class="nav__link">Работы</a>
+						<a href="#" class="nav__link">Команда</a>
+						<a href="#" class="nav__link">Контакты</a>
+					</nav>
 				</div>
-				<!--header__container-->
-			</header>
-
-			<div class="intro">
-				<div class="intro__container  container">
-					<div class="intro__row">
-						<div class="intro__main">
-							<div class="intro__inner">
-								<h1 class="intro__logo  logo"><span>#</span>нацирке</h1>
-								<h3 class="intro__first">широко известны в узких кругах</h3>
-								<h2 class="intro__second"><span>/студия звукозаписи</span> в твоем городе.</h2>
-							</div>
-							<!--intro__inner-->
-						</div>
-						<!--intro__main-->
-						<div class="intro__social">
-							<a class="intro__icon  icons" href="#" target="_blank">
-								<i class="fab fa-instagram"></i>
-							</a>
-							<a class="intro__icon  icons" href="#" target="_blank">
-								<i class="fab fa-vk"></i>
-							</a>
-							<a class="intro__icon  icons" href="#" target="_blank">
-								<i class="fab fa-telegram-plane"></i>
-							</a>
-						</div>
-						<!--intro__social-->
-					</div>
-					<!--intro__row-->
-				</div>
-				<!--intro__container-->
+				<!--header__row-->
 			</div>
-			<!--intro-->
+			<!--header__container-->
+		</header>
+
+		<div class="intro">
+			<div class="intro__container  container">
+				<div class="intro__row">
+					<div class="intro__main">
+						<div class="intro__inner">
+							<h1 class="intro__logo  logo"><span>#</span>нацирке</h1>
+							<h3 class="intro__first">широко известны в узких кругах</h3>
+							<h2 class="intro__second"><span>/студия звукозаписи</span> в твоем городе.</h2>
+						</div>
+						<!--intro__inner-->
+					</div>
+					<!--intro__main-->
+					<div class="intro__social">
+						<a class="intro__icon  icons" href="#" target="_blank">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a class="intro__icon  icons" href="#" target="_blank">
+							<i class="fab fa-vk"></i>
+						</a>
+						<a class="intro__icon  icons" href="#" target="_blank">
+							<i class="fab fa-telegram-plane"></i>
+						</a>
+					</div>
+					<!--intro__social-->
+				</div>
+				<!--intro__row-->
+			</div>
+			<!--intro__container-->
 		</div>
-		<!--content-->
+		<!--intro-->
+	</div>
+	<!--content-->
 
-
+	<main class="main">
 
 		<!---------------------------
     PHOTO GALLERY SLIDER
@@ -146,12 +143,12 @@ HEADER + NAV + INTRO
 				<!--slider__slides-->
 
 				<div class="slider__bullets">
-					<label for="slider__slide1"></label>
-					<label for="slider__slide2"></label>
-					<label for="slider__slide3"></label>
-					<label for="slider__slide4"></label>
-					<label for="slider__slide5"></label>
-					<label for="slider__slide6"></label>
+					<label class="slider__label" for="slider__slide1"></label>
+					<label class="slider__label" for="slider__slide2"></label>
+					<label class="slider__label" for="slider__slide3"></label>
+					<label class="slider__label" for="slider__slide4"></label>
+					<label class="slider__label" for="slider__slide5"></label>
+					<label class="slider__label" for="slider__slide6"></label>
 				</div>
 			</div>
 			<!--slider__container-->
@@ -947,32 +944,46 @@ HEADER + NAV + INTRO
 				</div>
 
 				<div class="contact__row">
-					<div class="contact__item">
-						<div class="contact__icon  icons">
-							<i class="fas fa-map-marker-alt"></i>
-						</div>
-						<div class="contact__content">
-							<p>г. Брянск</p>
-							<p>пр-кт Ленина 80 д.80</p>
-						</div>
-					</div>
-					<div class="contact__item">
-						<div class="contact__icon  icons">
-							<i class="fas fa-phone">
-
-							</i>
-						</div>
-						<div class="contact__content">
-							<p>+7(4832)77-77-77</p>
-							<p>+7-980-333-33-33</p>
+					<div class="contact__size">
+						<div class="contact__item">
+							<div class="contact__icon  icons">
+								<i class="fas fa-map-marker-alt"></i>
+							</div>
+							<div class="contact__content">
+								<p>г. Брянск</p>
+								<p>пр-кт Ленина 80 д.80</p>
+							</div>
 						</div>
 					</div>
-					<div class="contact__item">
-						<div class="contact__icon  icons">
-							<i class="fas fa-envelope-open-text"></i>
+					<div class="contact__size">
+						<div class="contact__item">
+							<div class="contact__icon  icons">
+								<i class="fas fa-phone"></i>
+							</div>
+							<div class="contact__content">
+								<p>+7(4832)77-77-77</p>
+								<p>+7-980-333-33-33</p>
+							</div>
 						</div>
-						<div class="contact__content">
-							info@nazirke.ru
+					</div>
+					<div class="contact__size">
+						<div class="contact__item">
+							<div class="contact__icon  icons">
+								<i class="fas fa-envelope-open-text"></i>
+							</div>
+							<div class="contact__content">
+								info@nazirke.ru
+							</div>
+						</div>
+					</div>
+					<div class="contact__size">
+						<div class="contact__item">
+							<div class="contact__icon  icons">
+								<i class="fas fa-envelope-open-text"></i>
+							</div>
+							<div class="contact__content">
+								info@nazirke.ru
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1049,41 +1060,40 @@ HEADER + NAV + INTRO
             </div>
         </div> -->
 
+	</main>
 
-
-
-		<!---------------------------
+	<!---------------------------
             FOOTER
 ---------------------------->
 
-		<footer class="footer">
-			<div class="container">
-				<div class="footer__row">
-					<div class="footer__logo  logo"><span>#</span>нацирке</div>
-					<div class="footer__social">
-						<a class="footer__icon  icons" href="#" target="_blank">
-							<i class="fab fa-instagram"></i>
-						</a>
-						<a class="footer__icon  icons" href="#" target="_blank">
-							<i class="fab fa-vk"></i>
-						</a>
-						<a class="footer__icon  icons" href="#" target="_blank">
-							<i class="fab fa-telegram-plane"></i>
-						</a>
-					</div>
-					<!--footer__social-->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__row">
+				<div class="footer__logo  logo"><span>#</span>нацирке</div>
+				<div class="footer__social">
+					<a class="footer__icon  icons" href="#" target="_blank">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a class="footer__icon  icons" href="#" target="_blank">
+						<i class="fab fa-vk"></i>
+					</a>
+					<a class="footer__icon  icons" href="#" target="_blank">
+						<i class="fab fa-telegram-plane"></i>
+					</a>
 				</div>
-				<!--footer__row-->
+				<!--footer__social-->
 			</div>
-			<!--container-->
+			<!--footer__row-->
+		</div>
+		<!--container-->
 
-			<div class="container">
-				<div class="copyright">
-					<p>Copyright © 2021 <span>#</span>nazirke, made by George Troshanin</p>
-				</div>
-				<!--copyright-->
+		<div class="container">
+			<div class="copyright">
+				<p>Copyright © 2021 <span>#</span>nazirke, made by George Troshanin</p>
 			</div>
-			<!--container-->
-		</footer>
-	</main>
+			<!--copyright-->
+		</div>
+		<!--container-->
+	</footer>
+
 </body>
