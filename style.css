@@ -639,6 +639,25 @@ WORKS + MENU
 
 /* Works */
 
+.works input {
+	display: none;
+}
+
+#rec:checked ~ .works__row > .works__item:not([class*="rec"]),
+#mix:checked ~ .works__row > .works__item:not([class*="mix"]),
+#bit:checked ~ .works__row > .works__item:not([class*="bit"]) {
+	width: 0px;
+	height: 0px;
+}
+
+#all:checked ~ .menu .all,
+#rec:checked ~ .menu .tag1,
+#mix:checked ~ .menu .tag2,
+#bit:checked ~ .menu .tag3 {
+	background-color: #4c76ff;
+	color: white;
+}
+
 .works__row {
 	display: flex;
 	justify-content: center;

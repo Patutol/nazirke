@@ -293,18 +293,25 @@ HEADER + NAV + INTRO
 				</div>
 				<!--works__header-->
 
-				<div class="menu">
-					<div class="menu__button  active" onclick="">Все</div>
-					<div class="menu__button" onclick="">Запись</div>
-					<div class="menu__button" onclick="">Сведение</div>
-					<div class="menu__button" onclick="">Биты</div>
-				</div>
+
 			</div>
 			<!--works__container-->
 
+			<input type="radio" id="all" name="button" checked>
+			<input type="radio" id="rec" name="button">
+			<input type="radio" id="mix" name="button">
+			<input type="radio" id="bit" name="button">
+
+			<div class="menu">
+				<label class="menu__button  all" for="all">Все</label>
+				<label class="menu__button  tag1" for="rec">Запись</label>
+				<label class="menu__button  tag2" for="mix">Сведение</label>
+				<label class="menu__button  tag3" for="bit">Биты</label>
+			</div>
+
 			<div class="works__row">
 
-				<div class="works__item" onclick="">
+				<div class="works__item  rec" onclick="">
 					<img src="img/works/1.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -333,7 +340,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  rec" onclick="">
 					<img src="img/works/2.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -362,7 +369,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  rec" onclick="">
 					<img src="img/works/3.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -391,7 +398,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  mix" onclick="">
 					<img src="img/works/4.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -420,7 +427,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  mix" onclick="">
 					<img src="img/works/5.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -449,7 +456,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  mix" onclick="">
 					<img src="img/works/6.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -478,7 +485,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  bit" onclick="">
 					<img src="img/works/7.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -507,7 +514,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  bit" onclick="">
 					<img src="img/works/8.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -536,7 +543,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  bit" onclick="">
 					<img src="img/works/1.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -565,7 +572,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  rec" onclick="">
 					<img src="img/works/2.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -594,7 +601,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  rec" onclick="">
 					<img src="img/works/3.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -623,7 +630,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  mix" onclick="">
 					<img src="img/works/4.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -652,7 +659,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  mix" onclick="">
 					<img src="img/works/5.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -681,7 +688,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  mix" onclick="">
 					<img src="img/works/6.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -710,7 +717,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  bit  mix" onclick="">
 					<img src="img/works/7.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
@@ -739,7 +746,7 @@ HEADER + NAV + INTRO
 					</div>
 				</div>
 
-				<div class="works__item" onclick="">
+				<div class="works__item  bit  mix" onclick="">
 					<img src="img/works/8.jpg" alt="" class="works__image">
 					<div class="works__info">
 						<div class="works__artist">
